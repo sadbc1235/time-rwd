@@ -48,6 +48,12 @@ setInterval(() => {
     }
   });
 
+  if (main.classList.contains("afternoon")) {
+    main.classList.add("dark_text");
+  } else {
+    main.classList.remove("dark_text");
+  }
+
   const times = setTime(now);
 
   times.forEach((time, index) => {

@@ -47,6 +47,14 @@ main.night {
 main.night figure {
   background-image: url(../img/phone_night.png);
 }
+main.dark_text header h1,
+main.dark_text header #gnb li a,
+main.dark_text header #sns li i,
+main.dark_text article p,
+main.dark_text article em,
+main.dark_text figure .screen {
+  color: #555;
+}
 main .sky_cl1 {
   position: absolute;
   top: -100px;

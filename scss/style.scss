@@ -41,6 +41,17 @@ main {
     }
   }
 
+  &.dark_text {
+    header h1,
+    header #gnb li a,
+    header #sns li i,
+    article p,
+    article em,
+    figure .screen {
+      color: #555;
+    }
+  }
+
   .sky_cl1 {
     position: absolute;
     top: -100px;
